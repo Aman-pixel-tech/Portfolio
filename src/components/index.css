@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  gap: 34px;
+  background-color: #9AD4D6;
+  font-family: "Baloo Bhai 2", sans-serif;
+  position: fixed;
+  width: 100vw;
+
+}
+ul {
+  display: flex;
+}
+li {
+  list-style: none;
+  margin: 5px;
+  padding: 5px;
+  
+}
+a {
+  text-decoration: none;
+  
+}
+a li {
+  color: white;
+}
+.red {
+  background-color: #557786;
+}
+a:hover{
+  background-color:#557786 ;
+}
+#set1 {
+  margin: 5px;
+ padding: 10px 10px 10px 10px;
+  
+}
+#set2 {
+  margin: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#set3 {
+  margin: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#set4 {
+  margin: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#set5{
+  margin: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.link1{
+  text-align: center;
+  padding-top: 10px;
+}
+.link1:hover{
+cursor: pointer;
+}
+
+.header{
+  margin: 5px;
+  padding: 5px;
+  
+}
+.daynight{
+  margin: 5px;
+  margin-right: 10px;
+  padding: 10px 10px 10px 10px;
+  background-color: #9AD4D6;
+  color: white;
+  border: transparent;
+  font-size: 1rem;
+  
+ 
+}
+.daynight1{
+  margin: 5px;
+  margin-right: 10px;
+  padding: 10px 10px 10px 10px;
+  background-color: #9AD4D6;
+  color: white;
+  border: transparent;
+  background-color: blue;
+  font-size: 1rem;
+  
+ 
+}
+#autho{
+  margin-right: 10px;
+  color: white;
+}
+.daynight:hover{
+  background-color:#557786 ;
+}
