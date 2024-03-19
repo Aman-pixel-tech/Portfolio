@@ -120,3 +120,52 @@ h1{
     width: 24vw;
   }
  
+  /* media query */
+
+  @media only screen and (max-width:480px){
+#head2{
+ font-size: 2rem;
+}
+
+.innerimage{
+  height: 30vh;
+  width: 28vw;
+  
+}
+#center9{
+  height: 28vh;
+  width: 29vw;
+
+}
+.head3{
+  width: 50vw;
+  height: 28vh;
+ 
+  font-size: 3rem;
+  font-family: "Baloo Bhai 2", sans-serif;
+  justify-content: center;
+  color: #9AD4D6 ;
+  
+
+}
+.proj{
+  height: 30vh;
+  width: 100vw;
+
+ background-color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 5px; 
+  
+}
+.container1{
+  height: 70vh;
+  width: 100vw;
+}
+}
