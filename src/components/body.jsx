@@ -23,7 +23,7 @@ import companyLogo10 from './image/py.png';
 
 function Body() {
   const [typeEffect] = useTypewriter({
-    words: ['Web Developer', 'Frontend Dev', 'UI/UX Dev', 'React Dev'],
+    words: ['Web Dev', 'Frontend Dev', 'UI/UX Dev', 'React Dev'],
     loop: {},
     typeSpeed: 100,
     deleteSpeed: 40

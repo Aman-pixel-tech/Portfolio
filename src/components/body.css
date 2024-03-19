@@ -165,7 +165,7 @@
 
 
 /* media query */
-@media only screen and (max-width:480px){
+@media only screen and (max-width:440px){
     .inner {
         margin-top: 80px;
         font-family: "Baloo Bhai 2", sans-serif;
@@ -176,7 +176,7 @@
         margin-top: 50px;
         font-size: 1rem;
         margin-left: 20px;
-        line-height: 50px;
+        line-height: 30px;
         word-spacing: 10px;
         font-family: "Baloo Bhai 2", sans-serif;
     }
