@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from "framer-motion";
 import Project from './project';
 import './project.css'
 import About from './About';
@@ -23,11 +24,16 @@ import companyLogo10 from './image/py.png';
 
 function Body() {
   const [typeEffect] = useTypewriter({
-    words: ['Web Developer', 'Frontend Dev', 'UI/UX Dev', 'React Dev'],
+    words: ['Web Dev', 'Frontend Dev', 'UI/UX Dev', 'React Dev'],
     loop: {},
     typeSpeed: 100,
     deleteSpeed: 40
-  })
+  } )
+ 
+    const text = "I am architect of my life".split(" ");
+    const text1 = "I build its foundation and choose its contents...".split(" ");
+  
+
   return (
     <div>
       <div className='section'>
@@ -37,8 +43,32 @@ function Body() {
           <br></br>
           <span className='inner'>I'am </span>
           <span className='inner' id='element'>{typeEffect}</span>
-          <p className='inner2'>I am architect of my life <br></br>
-            I build its foundation and choose its contents....</p>
+          <p className='inner2'>{text.map((el, i) => (
+        <motion.span
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{
+            duration: 5,
+            delay: 1,
+          }}
+          key={i}
+        >
+          {el}{" "}
+        </motion.span>
+      ))}<br></br>
+           {text1.map((el, i) => (
+        <motion.span
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{
+            duration: 5,
+            delay: 1,
+          }}
+          key={i}
+        >
+          {el}{" "}
+        </motion.span>))}
+        </p>
             <button className='btn4 '>Hire Me</button>
 
         </div>

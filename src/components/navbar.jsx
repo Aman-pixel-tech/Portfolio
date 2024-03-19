@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className='container'>
       <nav>
-        <h1 className='header' >AMAN BARI</h1>
+        <h1 className='header'>AMAN BARI</h1>
         <ul>
 
           <Link
@@ -82,7 +82,7 @@ const Navbar = () => {
 
         {
           isAuthenticated ? (
-            <button className='daynight1'onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
+            <button className='daynight1'onClick={() => logout({ logoutParams: { returnTo:"https://aman-pixel-tech.github.io/Portfolio/" } })}>
       Log Out
     </button>)
     :(
