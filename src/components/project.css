@@ -1,0 +1,168 @@
+.container1{
+    height: 100vh;
+    width: 100vw;  
+}
+.proj{
+    height: 60vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+   background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.head3{
+    width: 50vw;
+    height: 60vh;
+    /* border: 2px solid black; */
+    font-size: 3rem;
+    font-family: "Baloo Bhai 2", sans-serif;
+    justify-content: center;
+    color: #a3e1e3 ;
+    
+
+}
+h1{
+    margin-top: 50px;
+}
+#inhead{
+    color:  #87B1D4;
+}
+.innerimage{
+    height: 60vh;
+    width: 49vw;
+    /* border: 2px solid black; */
+}
+#center9{
+    height: 59vh;
+    width: 40vw;
+    /* border: 2px solid black; */
+}
+.box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background: #87B1D4;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(218, 254, 255);
+}
+
+
+.flip-card1 {
+    /* background-color: transparent; */
+     width: 24vw; 
+    height: 37vh; 
+
+    /* border: 1px solid #f1f1f1; */
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style:preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card1:hover .flip-card-inner1 {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front1, .flip-card-back1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front1 {
+    background-color: #bbb;
+    color: black;
+    height: 37vh;
+    width: 24vw;
+    margin-top: 10px;
+
+  }
+  
+  /* Style the back side */
+  .flip-card-back1 {
+    background-color: dodgerblue;
+    height: 37vh;
+    width: 24vw;
+    color: white;
+    transform: rotateY(180deg);
+    font-family: "Baloo Bhai 2", sans-serif;
+    margin-top: 10px;
+  }
+
+  .center09{
+    height: 37vh;
+    width: 24vw;
+  }
+ 
+  /* media query */
+
+  @media only screen and (max-width:480px){
+#head2{
+ font-size: 2rem;
+}
+
+.innerimage{
+  height: 30vh;
+  width: 28vw;
+  
+}
+#center9{
+  height: 28vh;
+  width: 29vw;
+
+}
+.head3{
+  width: 50vw;
+  height: 28vh;
+ 
+  font-size: 3rem;
+  font-family: "Baloo Bhai 2", sans-serif;
+  justify-content: center;
+  color: #9AD4D6 ;
+  
+
+}
+.proj{
+  height: 30vh;
+  width: 100vw;
+
+ background-color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 5px; 
+  
+}
+.container1{
+  height: 70vh;
+  width: 100vw;
+}
+}
