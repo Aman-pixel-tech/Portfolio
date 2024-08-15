@@ -18,7 +18,7 @@ alert("Hiring Successfull")
       <div className='card2'>
       <img src={companyLogo} alt="Paris" className="center17" />
       </div>
-      <ScrollAnimation animateIn='bounceInRight'animateOut='bounceOutLeft'>
+      <ScrollAnimation animateIn='fadeIn'animateOut='fadeIn'>
       <div className='card3'>
       <div className="flip-card">
   <div className="flip-card-inner">
@@ -29,9 +29,9 @@ alert("Hiring Successfull")
     <div className="flip-card-back">
       
         <img src={companyLogo22} alt="Avatar"className="center18" />
-         <h1>AMAN BARI</h1>
+        <div className='M1'><h1>AMAN BARI</h1>
       <p>Software Engineer</p>
-      <p>Fresher</p> 
+      <p>Fresher</p> </div> 
       <button type='download' className='btn3'><a href={companyLogo24}>Download CV</a></button>
       <button className='btn3 ' onClick={comeon}>Hire Me</button>
     </div>

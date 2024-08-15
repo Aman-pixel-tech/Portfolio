@@ -46,36 +46,36 @@
 }
 
 /* media query */
-@media only screen and (max-width:480px){
+@media only screen and (max-width:412px){
+   
     .container3 {
 
-        height: 25vh;
-        width: 100vw;
+        height: 30vh;
+        width: 109vw;
         display: flex;
         text-align: center;
-        background-color: black;
+        background-color: rgb(255, 255, 255);
     }
     
     .aboutme {
-        height: 25vh;
-        width: 30vw;
+        height: 30vh;
+        width: 39vw;
       
     
     
     }
     .aboutme2 {
-        height: 25vh;
+        height: 30vh;
         width: 70vw;
        
     
     }
     
     #center15 {
-        height: 25vh;
-        width: 25vw;
-        margin-top: 5px;
-    
-    
+        height: 30vh;
+        width: 39vw;
+       
+        margin-top: -1px;
     }
     
     .head7 {
@@ -88,7 +88,8 @@
     .para7{
         color:  #87B1D4;
         font-size: 1rem;
-        word-spacing: 40px;
+        word-spacing: 30px;
         margin-top: 20px;
     }
+    
 }

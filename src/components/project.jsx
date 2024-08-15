@@ -17,12 +17,12 @@ function Project() {
   return (
     <div className='container1' >
       <div className='proj'>
-      <ScrollAnimation animateIn='bounceInLeft'animateOut='bounceInLeft' duration={3}>
+      <ScrollAnimation animateIn='fadeIn'animateOut='fadeIn'>
         <div className='head3'>
           <h1 id='head2'>PROJECT'S  &<br></br><span id='inhead'>IDEAS</span></h1>
         </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn='bounceInRight'animateOut='bounceInRight' duration={3}>
+        <ScrollAnimation animateIn='fadeIn'animateOut='fadeIn' >
         <div className='innerimage'>
           <img src={companyLogo8} alt="Paris" id="center9" />
         </div>
@@ -32,8 +32,8 @@ function Project() {
 
 
       <div className='box'>
-      <ScrollAnimation animateIn='flipInY'
-  animateOut='flipOutY' duration={2}>
+      <ScrollAnimation animateIn='fadeIn'
+  animateOut='fadeIn' >
  <div className='card31'>
       <div className="flip-card1">
   <div className="flip-card-inner1">
@@ -51,8 +51,8 @@ function Project() {
 </div>
       </div>
       </ScrollAnimation>
-      <ScrollAnimation animateIn='flipInY'
-  animateOut='flipOutY'duration={2}>
+      <ScrollAnimation animateIn='fadeIn'
+  animateOut='fadeIn'>
  <div className='card31'>
       <div className="flip-card1">
   <div className="flip-card-inner1">
@@ -69,8 +69,8 @@ function Project() {
 </div>
       </div>
       </ScrollAnimation>
-      <ScrollAnimation animateIn='flipInY'
-  animateOut='flipOutY'duration={2}>
+      <ScrollAnimation animateIn='fadeIn'
+  animateOut='fadeIn'>
  <div className='card31'>
       <div className="flip-card1">
   <div className="flip-card-inner1">
@@ -87,8 +87,8 @@ function Project() {
 </div>
       </div>
       </ScrollAnimation>
-      <ScrollAnimation animateIn='flipInY'
-  animateOut='flipOutY'duration={2}>
+      <ScrollAnimation animateIn='fadeIn'
+  animateOut='fadeIn'>
  <div className='card31'>
       <div className="flip-card1">
   <div className="flip-card-inner1">

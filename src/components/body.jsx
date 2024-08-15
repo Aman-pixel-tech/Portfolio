@@ -43,9 +43,8 @@ function Body() {
       <div className='section'>
         <div className='title'>
           <p className='inner'>Hello!  </p>
-          <br></br>
-          <br></br>
-          <span className='inner'>I'am </span>
+         
+          <p className='inner'>I'am </p>
           <span className='inner' id='element'>{typeEffect}</span>
           <p className='inner2'>{text.map((el, i) => (
         <motion.span
@@ -98,12 +97,12 @@ function Body() {
 
 
       <div className='skill'>
-      <ScrollAnimation animateIn='bounceInLeft'animateOut='bounceInLeft' duration={3}>
+      <ScrollAnimation animateIn='fadeIn'animateOut='fadeIn' >
         <div className='skillimg'>
         <img src={companyLogo6} alt="Paris" id="center7" />
         </div>
        </ScrollAnimation>
-       <ScrollAnimation animateIn='bounceInRight'animateOut='bounceInRight' duration={3}>
+       <ScrollAnimation animateIn='fadeIn'animateOut='fadeIn' >
         <div className='skillheading'>
           <h1 id='head'>
             -MY SKILLS-
@@ -113,13 +112,13 @@ function Body() {
         </ScrollAnimation>
       </div>
       <div className='innerskills1'>
-      <ScrollAnimation animateIn='flipInY'animateOut='flipOutY' duration={2}>
+      <ScrollAnimation animateIn='fadeIn'animateOut='fadeIn' >
         <div className='cardimg'>
           <img src={companyLogo1} alt="Paris" id="center1" />
 
         </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn='flipInY'animateOut='flipOutY'duration={2}>
+        <ScrollAnimation animateIn='fadeIn'animateOut='fadeIn'>
 
         <div className='cardimg'>
 
@@ -127,7 +126,7 @@ function Body() {
         </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn='flipInY'animateOut='flipOutY'duration={2}>
+        <ScrollAnimation animateIn='fadeIn'animateOut='fadeIn'>
 
         <div className='cardimg'>
           <img src={companyLogo3} alt="Paris" id="center3" />
@@ -135,7 +134,7 @@ function Body() {
         </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn='flipInY'animateOut='flipOutY'duration={2}>
+        <ScrollAnimation animateIn='fadeIn'animateOut='fadeIn'>
 
         <div className='cardimg'>
           <img src={companyLogo4} alt="Paris" id="center4" />
@@ -143,20 +142,20 @@ function Body() {
         </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn='flipInY'animateOut='flipOutY'duration={2}>
+        <ScrollAnimation animateIn='fadeIn'animateOut='fadeIn'>
 
         <div className='cardimg'>
           <img src={companyLogo5} alt="Paris" id="center5" />
 
         </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn='flipInY'animateOut='flipOutY'duration={2}>
+        <ScrollAnimation animateIn='fadeIn'animateOut='fadeIn'>
         <div className='cardimg'>
           <img src={companyLogo7} alt="Paris" id="center4" />
 
         </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn='flipInY'animateOut='flipOutY'duration={2}>
+        <ScrollAnimation animateIn='fadeIn'animateOut='fadeIn'>
 
         <div className='cardimg'>
 
@@ -164,7 +163,7 @@ function Body() {
         </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn='flipInY'animateOut='flipOutY'duration={2}>
+        <ScrollAnimation animateIn='fadeIn'animateOut='fadeIn'>
 
         <div className='cardimg'>
           <img src={companyLogo9} alt="Paris" id="center4" />
@@ -172,7 +171,7 @@ function Body() {
         </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn='flipInY'animateOut='flipOutY'duration={2}>
+        <ScrollAnimation animateIn='fadeIn'animateOut='fadeIn'>
 
         <div className='cardimg'>
           <img src={companyLogo10} alt="Paris" id="center8" />

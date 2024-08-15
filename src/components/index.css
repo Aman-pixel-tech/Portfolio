@@ -62,40 +62,62 @@ cursor: pointer;
    
  
 
-
 /* MEDIA QUERY */
-@media only screen and (max-width:480px){
+@media only screen and (max-width:412px){
   nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    background-color: #9AD4D6;
+    font-family: "Baloo Bhai 2", sans-serif;
+    width: 110vw;
+  
+  }
+  ul {
+    display: flex;
+  
+  }
+  li {
+    list-style: none;
+
    
-  background-color: #9AD4D6;
-  height: 40px;
-  gap: 0px;
   }
-  .header{
-    font-size: 10px;
-    margin-top: 10px;
-    font-weight: bold;
-    color: blue;
-  }
- 
-  .link1{
-    text-align: center;
-   
-  }
-  #set1 {
-    margin: 5px;
-   padding: 5px 10px 10px 10px;
+  ul a {
+    text-decoration: none;
     
   }
-  #set2 {
+  ul a li {
+    color: white;
+  }
+  .red {
+    background-color: #557786;
+  }
+  ul a:hover{
+    background-color: rgb(79, 165, 245);
+  }
+  
+   ul{
+    gap: 25px;
+   }
+  
+  .link1{
+    text-align: center;
+    padding: 5px ;
+    font-size: 20px;
     margin: 5px;
-    padding: 5px 10px 10px 10px;
+    font-weight: bolder;
+    color: white;
+    
+  }
+  .link1:hover{
+  cursor: pointer;
+  }
+  
+  .header{
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(79, 165, 245);
+    color: white;
   }
  
-  #set4 {
-    margin: 5px;
-    padding: 5px 10px 10px 10px;
-  }
-
-  
 }

@@ -106,111 +106,109 @@
     color: white;
   }
 
-  @media only screen and (max-width:480px){
+  @media only screen and (max-width:412px){
     .card1{
-      height: 70vh;
-      width: 100vw;
-     
+      height: 40vh;
+      width: 109vw;
       display: flex;
-      background-color: black;
+      background-color: rgb(255, 255, 255);
      
   
   }
   .card2{
-      height: 70vh;
-      width: 30vw;
-     
+      height: 40vh;
+      width: 40vw;
   }
   .card3{
-      height: 70vh;
-      width: 30vw;
+      height: 40vh;
+      width: 70vw;
     
   
   }
   .center17{
-      height: 70vh;
-      width: 30vw;
-  }
-  .center18{
-      height: 250px;
-      width: 300px;
-      margin-top: -29px;
-  }
-  .center19{
-      height: 70vh;
-      width: 70vw;
-  }
-  
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-.flip-card {
-  /* background-color: transparent; */
-  width: 70vw;
-  height: 70vh;
-  /* border: 1px solid #f1f1f1; */
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-}
-
-/* This container is needed to position the front and back side */
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style:preserve-3d;
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-/* Style the back side */
-.flip-card-back {
-  background-color: dodgerblue;
-  color: white;
-  transform: rotateY(180deg);
-  font-family: "Baloo Bhai 2", sans-serif;
-}
-
-.btn3{
-  padding: 5px 15px 5px 15px;
-  margin: 10px;
-  margin-top: 0px;
-  border-radius: 15px;
-  border: none;
-  background-color: rgb(79, 165, 245);
-  color: white;
-}
-.btn3:hover{
-  background-color: rgb(20, 64, 104);
-  color: white;
-}
-
-.btn3 a:hover{
-  background-color:rgb(20, 64, 104) ;
-}
-
-.btn3 a:link{
-  text-decoration: none;
-}
-a{
-  color: white;
-}
+      height: 40vh;
+      width: 40vw;
+    
   }
  
+  
+  .center19{
+    height: 35vh;
+    width: 60vw;
+    
+}
+    .flip-card {
+      width: 60vw;
+      height: 35vh;
+      perspective: 1000px; 
+    }
+    
+
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.8s;
+      transform-style:preserve-3d;
+    }
+    
+
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+   
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden; /* Safari */
+      backface-visibility: hidden;
+    }
+    
+  
+    .flip-card-front {
+      background-color: #bbb;
+      color: black;
+    }
+    
+  
+    .flip-card-back {
+      background-color: rgb(177, 216, 255);
+      color: white;
+      transform: rotateY(180deg);
+      font-family: "Baloo Bhai 2", sans-serif;
+    }
+    .M1{
+      margin-top: -70px;
+    }
+  
+    .btn3{
+      padding: 5px 15px 5px 15px;
+      border-radius: 15px;
+      border: none;
+      background-color: rgb(79, 165, 245);
+      color: white;
+      margin-top: 30px;
+    }
+    .center18{
+      height: 150px;
+      width: 200px;
+      
+  }
+   .btn3:hover{
+      background-color: rgb(20, 64, 104);
+      color: white;
+    }
+   
+    .btn3 a:hover{
+      background-color:rgb(20, 64, 104) ;
+    }
+  
+    .btn3 a:link{
+      text-decoration: none;
+    }
+    a{
+      color: white;
+    }
+  }  
