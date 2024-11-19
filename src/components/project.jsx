@@ -1,18 +1,16 @@
 import React, { Component } from 'react'
 // import('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&display=swap')
 import companyLogo8 from './image/proj.png';
-import companyLogo28 from './image/Tour.png';
-import companyLogo38 from './image/tic.jpg';
+import companyLogo28 from './image/p1.png';
+import companyLogo38 from './image/p2.png';
 import companyLogo48 from './image/port.png';
-import companyLogo58 from './image/view.jpg';
+import companyLogo58 from './image/p4.png';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 
 function Project() {
 
-  function click(){
-    alert("opening")
-  }
+  
  
   return (
     <div className='container1' >
@@ -43,9 +41,9 @@ function Project() {
     </div>
     <div className="flip-card-back1">
       
-         <h1>TOUR AND TRAVELLS</h1>
+         <h1>YOGA WITH DIET</h1>
       
-      <button className='btn3 ' onClick={click}>About More</button>
+      <button className='btn3 ' ><a href='https://aman-pixel-tech.github.io/yogawithdiet/'>About more</a></button>
     </div>
   </div>
 </div>
@@ -61,10 +59,10 @@ function Project() {
       <img src={companyLogo38} alt="Avatar"className="center09" />
     </div>
     <div className="flip-card-back1">
-         <h1>TIC TAC TOE</h1>
+         <h1>Memory-Hurdle</h1>
      
-      <button className='btn3 ' onClick={click}>About More</button>
-    </div>
+         <button className='btn3 ' ><a href='https://aman-pixel-tech.github.io/MemoryHurdles/'>About more</a></button>
+         </div>
   </div>
 </div>
       </div>
@@ -81,7 +79,8 @@ function Project() {
     <div className="flip-card-back1">
          <h1>PORTFOLIO</h1>
        
-      <button className='btn3 ' onClick={click}>About More</button>
+         <button className='btn3 ' ><a href='https://aman-pixel-tech.github.io/Portfolio/'>About more</a></button>
+
     </div>
   </div>
 </div>
@@ -97,9 +96,10 @@ function Project() {
       <img src={companyLogo58} alt="Avatar"className="center09" />
     </div>
     <div className="flip-card-back1">
-         <h1>VIEW</h1>
+         <h1>Sorting-Visualizer</h1>
       
-      <button className='btn3 ' onClick={click}>About More</button>
+         <button className='btn3 ' ><a href='https://aman-pixel-tech.github.io/sorting-visualizer/'>About more</a></button>
+
     </div>
   </div>
 </div>

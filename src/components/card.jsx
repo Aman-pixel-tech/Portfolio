@@ -2,7 +2,7 @@ import React from 'react'
 import companyLogo22 from './image/pro.png';
 import companyLogo from './image/ar.png';
 import companyLogo23 from './image/post.png';
-import companyLogo24 from './PDF/Aman_BCA.pdf';
+import companyLogo24 from './PDF/Aman_BCA-3rd.pdf';
  import "animate.css/animate.compat.css"
 import ScrollAnimation from 'react-animate-on-scroll';
 
